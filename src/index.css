@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=Pirata+One&family=Quicksand:wght@300..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.outline-text {
+    color: transparent;
+    -webkit-text-stroke: 2px black; /* Outline width and color */
+    text-stroke: 2px black;         /* Standard property */
+  }
